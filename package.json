@@ -17,5 +17,9 @@
     "aws-mqtt-client": "^0.0.5",
     "typescript": "^2.2.1",
     "usb": "^1.2.0"
-  }
+  },
+  "files": [
+    "lib/",
+    "bin/"
+  ]
 }

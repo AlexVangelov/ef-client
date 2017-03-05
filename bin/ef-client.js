@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-var EfClient = require("./index").EfClient;
+var EfClient = require("../lib").EfClient;
 
 if (!process.env.AWS_ACCESS_KEY_ID || !process.env.AWS_SECRET_ACCESS_KEY || !process.env.AWS_IOT_ENDPOINT) 
   throw new Error('AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY & AWS_IOT_ENDPOINT (env) required');
