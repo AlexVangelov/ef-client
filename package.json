@@ -1,0 +1,21 @@
+{
+  "name": "ef-client",
+  "version": "1.0.0",
+  "description": "Extface Client",
+  "main": "index.js",
+  "bin": {
+    "ef-client": "bin/ef-client.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -w",
+    "build": "tsc -d"
+  },
+  "author": "AlexV <email@data.bg>",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-mqtt-client": "^0.0.5",
+    "typescript": "^2.2.1",
+    "usb": "^1.2.0"
+  }
+}
